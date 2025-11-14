@@ -8,4 +8,5 @@ int main(){
 	if((x % 2 == 0) && (x % 3 == 0) && !(x % 7 == 0)) printf("divisible by both 2, 3, and not 7\n");
 	else printf("not divisible by both 2,3 and not 7\n");
 
+	return 0;
 }
