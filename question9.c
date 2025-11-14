@@ -20,4 +20,5 @@ int main(){
 	printf("Implicit casting floating-point division result: %.2f\n",i);
 	printf("Explicit casting floating-point division result: %.2f\n",e);
 
+	return 0;
 }
