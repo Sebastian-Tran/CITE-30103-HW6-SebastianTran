@@ -1,0 +1,3 @@
+global variable g is able to be accessed by all functions in question8.c
+
+local variable l is only able to be accessed within the scope of the main function.
