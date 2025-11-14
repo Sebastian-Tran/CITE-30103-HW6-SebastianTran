@@ -13,5 +13,5 @@ int main(){
         printf("Size of float f: %zu\n", sizeof(f));
         printf("Size of double d: %zu\n", sizeof(d));
 
-
+	return 0;
 }
