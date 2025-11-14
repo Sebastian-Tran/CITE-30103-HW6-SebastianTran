@@ -1,7 +1,6 @@
 /* DOCUMENTATION SECTION */
-/* Created by Sebastian Tran. Program calculates and outputs the area and perimeter of a rectangle.
+/* Created by Sebastian Tran. Program asks user for input, then calculates and outputs the area and perimeter of a rectangle.
    Assumes integer inputs.
-
 */
 
 /* LINK SECTION */
