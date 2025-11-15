@@ -1,0 +1,3 @@
+int 1value = 10; Error is that it has a 1 at the beginning of the variable name. Names should begin with a letter or underscore.
+float avg-rate = 12.5; Error is that the '-' is an invalid character. Names should consist of letters, digits, or underscores.
+char Class = 'A'; This should work, but I am pretty sure it is just against common convention.
