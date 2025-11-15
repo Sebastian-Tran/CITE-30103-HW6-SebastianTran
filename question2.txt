@@ -1,0 +1,22 @@
+Some of this was also covered in Computer Systems Fundamentals, a class I am taking this semester as well, so some information
+between classes might be mixed.
+
+1.Editor
+C Program starts as a source code when it is created in an editor, then by using a compiler (gcc).
+	Errors: syntax errors.
+
+2. Preprocessing 
+When gcc compiles a .c file, the file is sent to the preprocessor (cpp) and a .i file is created when it processes the code.
+	Errors: #include headers cannot be found.
+
+3. Compilation
+Afterwards, the .cpp file is sent to the compiler (cc1), which translates the code into assembly and a .s file.
+	Errors: variable declaration errors, end statement errors (forgetting semicolon).
+
+4. Assembly
+The assembly code is sent into the Assembler (AS), which converts the assembly instructions into object code and creates .o file.
+	Errors: function utilized that was not defined.
+
+5. Linking/Loading
+Lastly, the Linker/Loader (ld) combines the object file with the library files to create an output/executable file or .out file.
+	Errors: Segmentation fault.
