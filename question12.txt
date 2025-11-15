@@ -1,0 +1,7 @@
+int a = 5, b = 3, res;
+res = a + b << 1;
+
+The developer expected res = 11, but because of operator precedence, the operations occured out of expected order.
+Two ways to fix this:
+	1. Using Parenthesis, change line 2 to res = a + (b << 1);
+	2. Instead of using bitwise operators, just multiply b by 2. res = a + b * 2;
